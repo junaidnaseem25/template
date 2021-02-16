@@ -1,0 +1,157 @@
+.img{
+background-image: url('./assets/pic7.jpg');
+width: 100%;
+height: 350px;
+background-size: cover;
+background-position: center;
+}
+.img h1{
+    color: white;
+    text-align: center;
+    padding-top: 70px;
+    font-size: 60px;
+}
+
+.img h2{
+    text-align: center;
+    color: white;
+
+}
+
+#btn{
+    text-align: center;
+    background-color:red;
+    font-weight: bold;
+    margin-left: 45%;
+    font-style: italic;
+    padding: 10px;
+}
+#btn:hover{
+    background-color: #fff;
+	color: #000;
+}
+
+.faith{
+    text-align: center;
+    margin-top: 35px;
+    font-weight: bold;
+    font-size: 30px;
+    font-family:cursive;
+}
+*{
+    box-sizing: border-box;
+
+}
+.column
+{
+    float: right;
+    width: 30%;
+    padding: 10px;
+}
+
+.column p{
+    color:black;
+}
+.row::after
+{
+   content: "";
+   clear: both;
+   display: table;
+}
+
+.column h1{
+    font-size: medium;
+    margin-left: 90px;
+    font-weight: bold;
+    font-family: cursive;
+
+}
+.box{
+    background-color: red;
+    padding: 40px;
+    
+
+}
+
+.date{
+    float: left;
+    color: white;
+    margin-left: 10%;
+}
+.location{
+    margin-left: 45%;
+    color: white;
+    
+}
+    
+.ref{
+    
+   margin-left: 80%;
+   margin-top: -20px;
+  
+}
+
+.ref a{
+    color: white;
+    padding: 5px 20px;
+    border: 1px solid white;
+
+}
+
+.hour{
+    background-color:whitesmoke;
+    padding: 170px;
+}
+
+.white{
+    background-color:white;
+    padding: 60px;
+    width: 640px;
+    float: left;
+    margin-top: -85px;
+}
+.our{
+    margin-top: -60px;
+}
+
+.red{
+    background-color:red;
+    padding: 60px;
+    width: 480px;
+    float: right;
+    margin-top: -85px;
+    column-count: 4;
+    column-gap: normal;
+    column-rule-style: solid;
+    color: white;
+    font-family: fantasy;
+    text-align: center;
+}
+
+.event {
+    text-align: center;
+    padding-top: 35px;
+    font-weight: bold;
+    font-size: 30px;
+    font-family:cursive;
+}
+  
+
+
+.footer{
+    background: linear-gradient(135deg, #ce1b28 0%, #111111 74%);
+    padding: 40px;
+}
+
+.icons{
+    float: right ;
+    margin-top: -20px;
+    
+}
+
+#myBtn{
+    font-size: 48px;
+    margin-left: 95%;
+   
+
+}
